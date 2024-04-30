@@ -1,0 +1,6 @@
+projectKey=AlaskaCo-12
+serverUrl=http://localhost:9000
+serverVersion=9.4.0.54424
+dashboardUrl=http://localhost:9000/dashboard?id=AlaskaCo-12
+ceTaskId=AYbf-Mm-sLwWEPQE9N9_
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYbf-Mm-sLwWEPQE9N9_

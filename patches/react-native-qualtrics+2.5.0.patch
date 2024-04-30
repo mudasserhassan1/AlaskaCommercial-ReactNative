@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-qualtrics/react-native-qualtrics.podspec b/node_modules/react-native-qualtrics/react-native-qualtrics.podspec
+index 19326de..a65268f 100644
+--- a/node_modules/react-native-qualtrics/react-native-qualtrics.podspec
++++ b/node_modules/react-native-qualtrics/react-native-qualtrics.podspec
+@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
+   s.license      = package["license"]
+   s.authors      = package["author"]
+ 
+-  s.platforms    = { :ios => "14.0" }
++  s.platforms    = { :ios => "12.4" }
+   s.source       = { :git => "https://www.qualtrics.com/.git", :tag => "#{s.version}" }
+ 
+   s.source_files = "ios/**/*.{h,m,mm}"

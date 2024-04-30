@@ -1,0 +1,2 @@
+export const SET_CHECKOUT_INFO = 'SET_CHECKOUT_INFO';
+

@@ -1,0 +1,315 @@
+import {Platform, StyleSheet} from 'react-native';
+import {
+  heightPercentageToDP,
+  heightPercentageToDP as hp,
+  widthPercentageToDP,
+  widthPercentageToDP as wp,
+} from 'react-native-responsive-screen';
+import {FONTS, COLORS, getFontSize} from '../../theme';
+import {SCREEN_HEIGHT} from '../../constants/Common';
+
+export const styles = StyleSheet.create({
+  container: {
+    justifyContent: 'center',
+    marginBottom: 10,
+    flex: 1,
+  },
+  contentContainerStyle: {
+    flexGrow: 1,
+    backgroundColor: COLORS.WHITE,
+    paddingBottom: 50,
+  },
+  borderII: {
+    borderBottomColor: COLORS.GRAY0_5,
+    borderBottomWidth: 1,
+    marginStart: widthPercentageToDP('6%'),
+    marginTop: hp('1.5%'),
+  },
+  flatListContentContainer: {
+    flexGrow: 1,
+  },
+  labelText: {
+    fontSize: getFontSize(13),
+    fontFamily: 'SFProDisplay-Medium',
+  },
+  headerBackImage: {
+    tintColor: COLORS.WHITE,
+    height: 24,
+    width: 24,
+  },
+  listsContainer: {
+    marginTop: hp('1.7%'),
+    flex: 0.88,
+  },
+  moreButton: {
+    width: 1,
+    height: '60%',
+    alignSelf: 'center',
+    backgroundColor: COLORS.GRAY0_5,
+    right: 18,
+  },
+  infoWrapper: {
+    marginTop: hp('1.2%'),
+    justifyContent: 'center',
+  },
+  bottomLabelText: {
+    fontSize: getFontSize(15),
+    fontFamily: 'SFProDisplay-Medium',
+  },
+
+  storeWrapper: {
+    justifyContent: 'center',
+    paddingTop: hp('1%'),
+    paddingBottom: hp('1%'),
+  },
+  storeInnerWrapper: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginStart: wp('6%'),
+  },
+
+  btnWrapper: {
+    width: '90%',
+    backgroundColor: COLORS.MAIN,
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    height: 50,
+    borderRadius: wp('2%'),
+    marginBottom: hp('2%'),
+    position: 'absolute',
+    bottom: 0,
+  },
+  listWrapper: {
+    marginTop: hp('2%'),
+    backgroundColor: COLORS.WHITE,
+  },
+  swipeoutSide: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  backTextWhite: {
+    color: '#FFF',
+  },
+
+  list: {
+    color: 'black',
+  },
+  btnText: {
+    color: COLORS.MAIN,
+  },
+  rowFront: {
+    backgroundColor: 'white',
+    borderBottomColor: COLORS.GRAY0_5,
+    justifyContent: 'space-between',
+  },
+  rowBack: {
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  swipeRowBack: {
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    borderBottomColor: COLORS.GRAY0_5,
+  },
+  actionButton: {
+    alignItems: 'center',
+    bottom: 0,
+    justifyContent: 'center',
+    position: 'absolute',
+    top: 0,
+    width: 75,
+    height: '100%',
+  },
+  closeBtn: {
+    backgroundColor: COLORS.WHITE,
+    right: 75,
+  },
+  deleteBtn: {
+    backgroundColor: COLORS.MAIN,
+    right: 0,
+  },
+  descriptionView: {
+    flexDirection: 'row',
+    marginTop: hp('.8%'),
+  },
+  itemNamesView: {
+    width: '50%',
+    flexDirection: 'row',
+    marginStart: wp('2%'),
+  },
+  descriptionText: {
+    fontSize: getFontSize(15),
+    fontFamily: 'SFProDisplay-Regular',
+    fontWeight: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 20,
+    letterSpacing: -0.15,
+    color: COLORS.CHARCOAL_GREY_60,
+  },
+  radioButtonView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  itemName: {
+    fontSize: getFontSize(15),
+    fontFamily: 'SFProDisplay-Medium',
+    fontWeight: '500',
+    fontStyle: 'normal',
+    lineHeight: 22,
+    letterSpacing: -0.25,
+    color: COLORS.BLACK,
+  },
+  modalView: {
+    justifyContent: 'flex-end',
+    margin: 0,
+    ...Platform.select({
+      android: {
+        bottom: 0,
+        width: '100%',
+        position: 'absolute',
+      },
+    }),
+  },
+  modalContent: {
+    backgroundColor: 'white',
+    borderTopStartRadius: 10,
+    borderTopEndRadius: 10,
+    paddingBottom: hp('5%'),
+    maxHeight: hp('70%'),
+  },
+  listRow: {
+    width: '92%',
+    alignSelf: 'center',
+    justifyContent: 'space-between',
+  },
+  createListText: {
+    fontSize: getFontSize(15),
+    fontFamily: 'SFProDisplay-Regular',
+    marginStart: wp('2%'),
+  },
+  modalText: {
+    fontSize: getFontSize(15),
+    fontFamily: 'SFProDisplay-Regular',
+    marginStart: wp('2%'),
+    fontWeight: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 22,
+    letterSpacing: -0.36,
+    color: COLORS.BLACK,
+  },
+  separator: {
+    backgroundColor: COLORS.GRAY0_5,
+    height: 1,
+    width: '90%',
+    alignSelf: 'center',
+  },
+  modalBtnWrapper: {
+    width: '90%',
+    backgroundColor: COLORS.DISABLE_BUTTON_COLOR,
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    height: 50,
+    borderRadius: wp('2%'),
+    marginTop: hp('1%'),
+    zIndex: 1,
+  },
+  itemSeparator: {
+    height: 0.5,
+    width: '94%',
+    backgroundColor: '#C8C8C8',
+    alignSelf: 'flex-end',
+  },
+  parent: {
+    height: SCREEN_HEIGHT - 150,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: widthPercentageToDP('6%'),
+  },
+  guestRestrictionText: {
+    fontFamily: FONTS.REGULAR,
+    fontSize: getFontSize(18),
+    lineHeight: 30,
+    letterSpacing: -0.35,
+    textAlign: 'center',
+  },
+  buttonWrapper: {
+    width: '100%',
+    marginTop: heightPercentageToDP('4%'),
+    backgroundColor: COLORS.MAIN,
+    alignItems: 'center',
+    alignSelf: 'center',
+    height: 50,
+    borderRadius: widthPercentageToDP('2%'),
+    marginBottom: 10,
+    marginStart: widthPercentageToDP('6%'),
+    marginRight: widthPercentageToDP('6%'),
+  },
+  editButton: {
+    width: '20%',
+    height: '100%',
+    alignItems: 'flex-end',
+  },
+  shareContainer: {
+    flexDirection: 'row',
+    paddingHorizontal: wp(6),
+    paddingVertical: 12,
+    backgroundColor: COLORS.WHITE,
+    borderBottomColor: COLORS.GRAY_1,
+    borderBottomWidth: 1,
+  },
+  meta: {
+    width: '80%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    overflow: 'visible',
+  },
+  shareLeftContainer: {
+    paddingRight: 12,
+    flex: 1,
+  },
+  shareButton: {
+    borderRadius: 6,
+    borderWidth: 1.5,
+    borderColor: COLORS.MAIN,
+    paddingVertical: 6,
+    paddingHorizontal: 17,
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 0,
+    alignSelf: 'center',
+  },
+  shareButtonText: {
+    fontSize: getFontSize(13),
+    color: COLORS.MAIN,
+    fontFamily: FONTS.SEMI_BOLD,
+    lineHeight: 18,
+    flexShrink: 1,
+  },
+  gap: {
+    height: hp(1.5),
+    backgroundColor: COLORS.BACKGROUND,
+  },
+  shareHeading: {
+    fontSize: getFontSize(13),
+    color: COLORS.BLACK,
+    fontFamily: FONTS.SEMI_BOLD,
+    lineHeight: 22,
+    flexShrink: 1,
+  },
+  shareText: {
+    fontFamily: FONTS.REGULAR,
+    fontSize: getFontSize(12),
+    lineHeight: 20,
+    color: COLORS.GRAY_67,
+    flexShrink: 1,
+  },
+});

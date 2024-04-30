@@ -1,0 +1,182 @@
+{
+  "project_info": {
+    "project_number": "83480189843",
+    "project_id": "alaska-commercial-shopping-app",
+    "storage_bucket": "alaska-commercial-shopping-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83480189843:android:805726a9c2daee223ea666",
+        "android_client_info": {
+          "package_name": "com.citrusbits.alaskacommercial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83480189843-fkjicl7mf4d211ij01dsk11172j1889b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXjOsCmdpzwk7Du8nfrQJQOev3fUOhgIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83480189843-fkjicl7mf4d211ij01dsk11172j1889b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83480189843-aglvqeb1cl4mfk8pb8gn9rccorgs5aa2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.northwest.alaskacommercial.staging",
+                "app_store_id": "1642926862"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83480189843:android:ede3688a921ea0d83ea666",
+        "android_client_info": {
+          "package_name": "com.northwest.alaskacommercial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83480189843-flcshklk5gt2inbka6obqfh15jcs8m8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.northwest.alaskacommercial",
+            "certificate_hash": "2801ca61c1976a75242db190db51d3fe2d52aaac"
+          }
+        },
+        {
+          "client_id": "83480189843-fkjicl7mf4d211ij01dsk11172j1889b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXjOsCmdpzwk7Du8nfrQJQOev3fUOhgIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83480189843-fkjicl7mf4d211ij01dsk11172j1889b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83480189843-aglvqeb1cl4mfk8pb8gn9rccorgs5aa2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.northwest.alaskacommercial.staging",
+                "app_store_id": "1642926862"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83480189843:android:a8e851747dea74ab3ea666",
+        "android_client_info": {
+          "package_name": "com.northwest.alaskacommercial.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83480189843-eofee10fut6st5f590etrnj5r6ns5l1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.northwest.alaskacommercial.dev",
+            "certificate_hash": "2801ca61c1976a75242db190db51d3fe2d52aaac"
+          }
+        },
+        {
+          "client_id": "83480189843-fkjicl7mf4d211ij01dsk11172j1889b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXjOsCmdpzwk7Du8nfrQJQOev3fUOhgIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83480189843-fkjicl7mf4d211ij01dsk11172j1889b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83480189843-aglvqeb1cl4mfk8pb8gn9rccorgs5aa2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.northwest.alaskacommercial.staging",
+                "app_store_id": "1642926862"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83480189843:android:c4e9515310027c363ea666",
+        "android_client_info": {
+          "package_name": "com.northwest.alaskacommercial.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83480189843-nuv5h4tjt6vaupms973cocmdhghabv9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.northwest.alaskacommercial.staging",
+            "certificate_hash": "2801ca61c1976a75242db190db51d3fe2d52aaac"
+          }
+        },
+        {
+          "client_id": "83480189843-fkjicl7mf4d211ij01dsk11172j1889b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXjOsCmdpzwk7Du8nfrQJQOev3fUOhgIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83480189843-fkjicl7mf4d211ij01dsk11172j1889b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83480189843-aglvqeb1cl4mfk8pb8gn9rccorgs5aa2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.northwest.alaskacommercial.staging",
+                "app_store_id": "1642926862"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
